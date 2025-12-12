@@ -25,8 +25,8 @@ readonly TODO_DIRS=(
 )
 
 # --- CONFIGURATION DE LA COMMANDE ---
-readonly EDITOR_CMD="gedit"
-readonly FILENAME="2025_TODO.txt"
+readonly EDITOR_CMD="code"
+readonly FILENAME="TODO.md"
 
 # --- SCRIPT PRINCIPAL ---
 echo "Lancement des notes TODO avec $EDITOR_CMD (détaché)..."
