@@ -1,6 +1,23 @@
+# --------------------------------------------------------------------------------
+# title: rapport.sh
+# author: Robin Marques
+# date: 2024-12-14
+# updated: 2025-01-06
+# type: script
+# status: active
+# tags:
+#   - rapport
+#   - organisation
+#   - notes
+#
+# description:
+#   Script Bash pour copier un modèle de document depuis un répertoire dédié
+#   vers un nouveau document avec un nom spécifié par l'utilisateur.
+# --------------------------------------------------------------------------------
+
 #!/usr/bin/env bash
 
-# Par défaut, le chemin de base est :
+# Chemin de base vers mon dossier :
 base_dir="$HOME/documents/outils/templates"
 
 

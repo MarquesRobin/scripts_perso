@@ -1,10 +1,8 @@
-#!/usr/bin/env bash
-
 # --------------------------------------------------------------------------------
 # title: todo.sh
 # author: Robin Marques
 # date: 2024-12-14
-# updated: 2025-12-12
+# updated: 2026-01-06
 # type: script
 # status: active
 # tags:
@@ -13,9 +11,11 @@
 #   - notes
 #
 # description:
-#   Script Bash pour ouvrir des fichiers TODO dans plusieurs dossiers
-#   avec un éditeur de texte en mode détaché.
+#   Script Bash pour ouvrir des fichiers TODO (mes todo list) dans plusieurs dossiers
+#   avec un éditeur de texte (ici visual studio code) en mode détaché.
 # --------------------------------------------------------------------------------
+
+#!/usr/bin/env bash
 
 # --- CONFIGURATION ---
 readonly TODO_DIRS=(
@@ -25,7 +25,7 @@ readonly TODO_DIRS=(
 )
 
 # --- CONFIGURATION DE LA COMMANDE ---
-readonly EDITOR_CMD="code"
+readonly EDITOR_CMD=" visual studio code"
 readonly FILENAME="TODO.md"
 
 # --- SCRIPT PRINCIPAL ---
