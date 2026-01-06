@@ -48,6 +48,19 @@ main() {
 # tags:
 #   - journal
 #
+# bonheur: /10
+# energie: /10
+# productivite: /10
+# stress: /10
+#
+# manger: /10
+# sommeil: /10
+# sport: /10
+# concentration: /10
+#
+# intrapsychique: /10
+# interpersonnel: /10
+#
 # description:
 #   Carnet qui fait le point sur la journée du $DATE_ACTUELLE
 # --------------------------------------------------------------------------------
