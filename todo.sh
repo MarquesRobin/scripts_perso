@@ -25,7 +25,7 @@ readonly TODO_DIRS=(
 )
 
 # --- CONFIGURATION DE LA COMMANDE ---
-readonly EDITOR_CMD=" visual studio code"
+readonly EDITOR_CMD="code"
 readonly FILENAME="TODO.md"
 
 # --- SCRIPT PRINCIPAL ---
